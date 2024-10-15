@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Household Stats</title>
+    <title>Rankings - Leaderboard</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
-    <link href="index.css" rel="stylesheet" />
+    <link href="rankings.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Responsive Navbar -->
@@ -44,60 +44,38 @@
         </ul>
       </div>
     </nav>
+    <h1>Water Usage Leaderboard</h1>
+    <table id="waterLeaderboard">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Water Usage (Liters)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be inserted here -->
+      </tbody>
+    </table>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div>
-        <h1>Welcome!</h1>
-        <a href="#stats">
-          <p class="scroll-down">
-            Scroll down or click to see your household statistics<br />&#8595;
-          </p>
-        </a>
-      </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats-section">
-      <div class="container">
-        <h2 class="text-center mb-4">Your Household Statistics</h2>
-        <div class="row">
-          <!-- Stat Card 1 -->
-          <div class="col-md-4">
-            <div class="card stat-card">
-              <div class="card-body">
-                <h5 class="card-title">Number of Family Members</h5>
-                <p class="card-text display-4">5</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Stat Card 2 -->
-          <div class="col-md-4">
-            <div class="card stat-card">
-              <div class="card-body">
-                <h5 class="card-title">Monthly Energy Usage (kWh)</h5>
-                <p class="card-text display-4">450</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Stat Card 3 -->
-          <div class="col-md-4">
-            <div class="card stat-card">
-              <div class="card-body">
-                <h5 class="card-title">Water Consumption (liters)</h5>
-                <p class="card-text display-4">1,200</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <h1>Electricity Usage Leaderboard</h1>
+    <table id="electricityLeaderboard">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Electricity Usage (kWh)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be inserted here -->
+      </tbody>
+    </table>
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- External JavaScript file -->
+    <script src="rankings.js"></script> <!-- Link to your external JS file -->
   </body>
 </html>
