@@ -5,7 +5,8 @@
   "main": "initiatives.js",
   "scripts": {
     "start": "lite-server",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "",
+    "deploy": "gh-pages -d ."
   },
   "keywords": [],
   "author": "Win Moe Oo",
