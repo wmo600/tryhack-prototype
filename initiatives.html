@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Initiatives Page</title>
-    <!-- Bootstrap CSS -->
+    <title>Latest Sustainability Initiatives</title>
     <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <link href="style.css" rel="stylesheet" />
-    <link href="rankings.css" rel="stylesheet" />
+    <link href="initiatives.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Responsive Navbar -->
@@ -44,39 +43,13 @@
         </ul>
       </div>
     </nav>
-    <h1>Ongoing Initiatives</h1>
-
-    <div class="card-container">
-      <!-- Example of an initiative card -->
-      <div class="card" onclick="window.location.href='#event1'">
-        <div class="card-title">Startup Conference 2024</div>
-        <div class="card-description">
-          Join the biggest startup event in the city this year.
-        </div>
-        <button>View Details</button>
+    <div class="container">
+      <h1 class="text-center my-5">Latest Sustainability Initiatives</h1>
+      <div class="row" id="results-container">
+        <!-- Results will be injected here -->
       </div>
-
-      <div class="card" onclick="window.location.href='#event2'">
-        <div class="card-title">Green Tech Expo</div>
-        <div class="card-description">
-          Discover the latest in sustainable technology and energy.
-        </div>
-        <button>View Details</button>
-      </div>
-
-      <div class="card" onclick="window.location.href='#event3'">
-        <div class="card-title">Youth Leadership Summit</div>
-        <div class="card-description">
-          Empowering the next generation of leaders and entrepreneurs.
-        </div>
-        <button>View Details</button>
-      </div>
-
-      <!-- Add more cards as needed -->
     </div>
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Link to external JavaScript file -->
+    <script src="initiatives.js"></script>
   </body>
 </html>
