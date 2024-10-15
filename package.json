@@ -1,0 +1,17 @@
+{
+  "name": "tryhack-prototype",
+  "version": "1.0.0",
+  "description": "A ranking app of resource depletion",
+  "main": "initiatives.js",
+  "scripts": {
+    "start": "lite-server",
+    "predeploy": "",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "Win Moe Oo",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
