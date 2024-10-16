@@ -2,7 +2,7 @@
 async function fetchSustainabilityNews() {
     const apiKey = 'AIzaSyAPBkOz7VkpJqYMi5YLELozpBBGUJ_qel4'; // Replace with your API key
     const searchEngineId = '1195093dc05ef46e6'; // Replace with your Search Engine ID
-    const query = 'latest sustainability initiatives concerning electricity and water'; // Customize your query
+    const query = 'latest sustainability initiatives'; // Customize your query
     const url = `https://www.googleapis.com/customsearch/v1?q=${query}&cx=${searchEngineId}&key=${apiKey}`;
   
     try {
